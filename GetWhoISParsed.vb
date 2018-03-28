@@ -43,7 +43,7 @@ Public Class Owner
         Public Property name As String
         Public Property organization As String
         Public Property email As String
-        Public Property address As String
+        Public Property address As Object
         Public Property zipcode As String
         Public Property city As String
         Public Property state As String
@@ -60,7 +60,7 @@ Public Class Owner
         Public Property name As String
         Public Property organization As String
         Public Property email As String
-        Public Property address As String
+        Public Property address As Object
         Public Property zipcode As String
         Public Property city As String
         Public Property state As String
@@ -77,7 +77,7 @@ Public Class Owner
         Public Property name As String
         Public Property organization As String
         Public Property email As String
-        Public Property address As String
+        Public Property address As Object
         Public Property zipcode As String
         Public Property city As String
         Public Property state As String
