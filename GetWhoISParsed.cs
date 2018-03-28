@@ -78,7 +78,7 @@ public class Table
        public string name { get; set; }
        public string organization { get; set; }
        public string email { get; set; }
-       public string address { get; set; }
+       public object address { get; set; }
        public string zipcode { get; set; }
        public string city { get; set; }
        public string state { get; set; }
@@ -96,7 +96,7 @@ public class Table
        public string name { get; set; }
        public string organization { get; set; }
        public string email { get; set; }
-       public string address { get; set; }
+       public object address { get; set; }
        public string zipcode { get; set; }
        public string city { get; set; }
        public string state { get; set; }
@@ -114,7 +114,7 @@ public class Table
        public string name { get; set; }
        public string organization { get; set; }
        public string email { get; set; }
-       public string address { get; set; }
+       public object address { get; set; }
        public string zipcode { get; set; }
        public string city { get; set; }
        public string state { get; set; }
